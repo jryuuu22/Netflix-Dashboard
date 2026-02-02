@@ -10,7 +10,9 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 ## Dashboard Preview
 
 ### Executive Overview & Single Title View
-![Netflix Dashboard](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/main/Netflix_Dashboard.png)
+![Netflix Dashboard](https://github.com/jryuuu22/Netflix-Dashboard/blob/9c2f1e1ef760c43278d7400ae489f02a856fdb7f/dashboard/Netflix%20Dashboard%20page%201.png)
+![Netflix Dashboard](https://github.com/jryuuu22/Netflix-Dashboard/blob/9c2f1e1ef760c43278d7400ae489f02a856fdb7f/dashboard/Netflix%20Dashboard%20Page%202.png)
+
 
 > *The dashboard is structured with an executive overview for portfolio-level insights and a single-title view for detailed exploration of individual movies or TV shows.*
 
