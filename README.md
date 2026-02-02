@@ -10,7 +10,7 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 ## Dashboard Preview
 
 ### Executive Overview & Single Title View
-![Netflix Dashboard Preview](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/3e02bd4e40200068986af3af25a17ad322252912/Netflix%20Dashboard.png)
+![Netflix Dashboard Preview](https://github.com/jryuuu22/Netflix-Dashboard/blob/5a6d424c8cef66bdfce87df8fa03cd07d2306adc/Netflix%20Dashboard.pdf)
 
 > *The dashboard is structured with an executive overview for portfolio-level insights and a single-title view for detailed exploration of individual movies or TV shows.*
 
@@ -18,7 +18,7 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 
 ## Relational Data Model
 
-![Netflix Relational Model](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/3e02bd4e40200068986af3af25a17ad322252912/Netflix_relational_table.png)
+![Netflix Relational Model](https://github.com/jryuuu22/Netflix-Dashboard/blob/5a6d424c8cef66bdfce87df8fa03cd07d2306adc/Netflix_relational_table.pdf)
 
 > *The data model uses `show_id` as the primary key and relies on normalized dimension tables to drive filtering, aggregation, and interactivity across visuals.*
 
