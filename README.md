@@ -18,7 +18,7 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 
 ## Relational Data Model
 
-![Relational Model](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/main/Netflix_relational_table.png)
+![Relational Model](https://github.com/jryuuu22/Netflix-Dashboard/blob/546dc2c24c16eaba5d3dc8bd45605ad4964bf04b/dashboard/relational_table.png)
 
 > *The data model uses `show_id` as the primary key and relies on normalized dimension tables to drive filtering, aggregation, and interactivity across visuals.*
 
