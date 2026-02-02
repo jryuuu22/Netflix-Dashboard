@@ -7,6 +7,19 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 
 ---
 
+## Data Preparation & Cleaning
+
+The dataset was cleaned and structured using **Microsoft Excel** prior to loading into Power BI.
+
+Key steps included:
+- Cleaning and standardizing column values (e.g., removing extra whitespace, handling inconsistent text formatting)
+- Splitting multi-value fields (such as genres, cast members, and countries) into separate rows to support relational modeling
+- Creating new tables to normalize the data (e.g., genre, cast, director, and country tables)
+- Establishing a consistent primary key (`show_id`) across all tables
+- Reordering and organizing fields to improve readability and usability within Power BI
+
+This preprocessing step enabled a **clean relational data model**, improved filtering performance, and reduced the need for complex calculations within the dashboard.
+
 ## Dashboard Preview
 
 ### Executive Overview & Single Title View
@@ -104,6 +117,7 @@ Custom DAX can be added for advanced calculations if required.
 
 ## Tools & Technologies
 - **Power BI Desktop**
+- **Excel** for data cleaning
 - Relational data modeling
 - Interactive visuals and slicers
 - Geographic mapping for content availability analysis
