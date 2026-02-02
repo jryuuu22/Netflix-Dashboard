@@ -2,6 +2,26 @@
 
 ## Overview
 This project is an interactive **Power BI dashboard** designed to support **content strategy and catalog analysis** for a Netflix-style streaming platform. The dashboard enables users to evaluate catalog composition, audience targeting, geographic availability, and individual title metadata through a clean, relational, and highly interactive BI experience.
+
+The project emphasizes **data modeling, relationship-driven analysis, and UX design**, intentionally minimizing custom DAX to demonstrate effective use of Power BI’s semantic model and filter context.
+
+---
+
+## Dashboard Preview
+
+### Executive Overview & Single Title View
+![Netflix Dashboard Preview](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/3e02bd4e40200068986af3af25a17ad322252912/Netflix%20Dashboard.png)
+
+> *The dashboard is structured with an executive overview for portfolio-level insights and a single-title view for detailed exploration of individual movies or TV shows.*
+
+---
+
+## Relational Data Model
+
+![Netflix Relational Model](https://raw.githubusercontent.com/jryuuu22/Netflix-Dashboard/3e02bd4e40200068986af3af25a17ad322252912/Netflix_relational_table.png)
+
+> *The data model uses `show_id` as the primary key and relies on normalized dimension tables to drive filtering, aggregation, and interactivity across visuals.*
+
 ---
 
 ## Dashboard Pages
@@ -50,38 +70,21 @@ Relationships between tables drive filtering and aggregation across visuals.
 
 ---
 
-## Design Approach 
+## Design Approach (No DAX by Design)
+This dashboard intentionally avoids custom DAX measures to highlight **Power BI’s built-in aggregation engine and filter propagation capabilities**.
 
 Key design principles:
-- Metrics are derived using **implicit measures** (counts, distinct counts, sums) where appropriate
+- Metrics are derived using **implicit measures** where appropriate
 - Relationships handle cross-filtering between genres, countries, cast, and titles
-- Visual interactions and slicers are used to drive analytical context
+- Visual interactions and slicers define analytical context
 - Business logic is embedded in the **data model**, not hard-coded into calculations
 
-This approach demonstrates how many real-world BI dashboards are built:
-- Faster development
-- Easier maintenance
-- Lower risk of logic errors
-- Clearer analytical intent
+This approach reflects many real-world BI implementations where:
+- Simplicity improves maintainability
+- Logic transparency reduces risk
+- Models scale more easily across teams
 
-Custom DAX can be added if advanced calculations or scenario modeling are required, but was intentionally excluded to keep the model transparent and scalable.
-
----
-
-## Tools & Technologies
-- **Power BI Desktop**
-- Relational data modeling
-- Interactive visuals, slicers, and cross-filtering
-- Map visualizations for geographic analysis
-
----
-
-## Example Use Cases
-- Evaluate overall content catalog composition
-- Identify dominant genres and audience ratings
-- Analyze geographic availability of titles
-- Explore individual movies or TV shows in detail
-- Support strategic discussions around content distribution
+Custom DAX can be added for advanced calculations if required.
 
 ---
 
@@ -97,10 +100,18 @@ Custom DAX can be added if advanced calculations or scenario modeling are requir
 
 ---
 
+## Tools & Technologies
+- **Power BI Desktop**
+- Relational data modeling
+- Interactive visuals and slicers
+- Geographic mapping for content availability analysis
+
+---
+
 ## Notes
 This project is intended for **portfolio and interview demonstration purposes** and is not affiliated with Netflix.
 
 ---
 
 ## Author
-Created by **jryuu22**
+Created by **jryuuu22**
