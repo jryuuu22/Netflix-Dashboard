@@ -9,7 +9,7 @@ The project emphasizes **data modeling, relationship-driven analysis, and UX des
 
 ## Data Preparation & Cleaning
 
-The dataset was cleaned and structured using **Microsoft Excel** prior to loading into Power BI.
+The dataset was cleaned, structured, and queried using **Microsoft Excel** and **SQL** before loading into Power BI.
 
 Key steps included:
 - Cleaning and standardizing column values (e.g., removing extra whitespace, handling inconsistent text formatting)
@@ -118,6 +118,7 @@ Custom DAX can be added for advanced calculations if required.
 ## Tools & Technologies
 - **Power BI Desktop**
 - **Excel** for data cleaning
+- **SQL** for data querying
 - Relational data modeling
 - Interactive visuals and slicers
 - Geographic mapping for content availability analysis
